@@ -37,7 +37,7 @@ package 'libmemcache-dev' do
       package_name 'libmemcached-devel'
     end
   else
-    package_name 'libmemcache-dev'
+    package_name 'libmemcached-dev'
   end
 end
 
