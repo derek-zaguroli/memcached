@@ -34,7 +34,7 @@ package 'libmemcache-dev' do
     if node['platform_version'].to_f < 12
       package_name 'libmemcache-devel'
     else
-      package_name 'libmemcached-dev'
+      package_name 'libmemcached-devel'
     end
   else
     package_name 'libmemcached-dev'
